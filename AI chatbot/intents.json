@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "Hi there"],
+      "responses": ["Hi there! How can I assist you with your shopping today?", "Hello! Looking for something special?", "Hey! Need help finding a product?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later", "I'm done", "Thanks, bye"],
+      "responses": ["Thanks for visiting! Have a great day!", "See you again soon!", "Goodbye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "browse_products",
+      "patterns": ["Show me products", "What do you have?", "Can I browse items?", "List products", "I want to see the catalog", "Display your items"],
+      "responses": ["Sure! We have categories like electronics, clothing, accessories, and home decor. What are you interested in?"]
+    },
+    {
+      "tag": "product_search",
+      "patterns": ["I'm looking for a laptop", "Do you have smartphones?", "Find me a black dress", "I want wireless earbuds", "Search for men's shoes"],
+      "responses": ["Got it! Let me show you some options for that.", "Here are some products that match your request."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "Has my order shipped?", "When will my package arrive?"],
+      "responses": ["Please provide your order ID so I can check the status for you.", "Sure! Can you share your order number?"]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["Can I return items?", "What's your return policy?", "How do I return a product?", "I want to return my order"],
+      "responses": ["You can return most items within 14 days of delivery. Visit the Returns section in your profile for details."]
+    },
+    {
+      "tag": "payment_options",
+      "patterns": ["How can I pay?", "Do you accept credit cards?", "Can I pay with PayPal?", "What payment methods are available?"],
+      "responses": ["We accept credit/debit cards, PayPal, and cash on delivery for some regions."]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": ["Do you offer free shipping?", "What are the delivery charges?", "Shipping cost?", "How long does shipping take?", "Is shipping available to my area?"],
+      "responses": ["We offer free shipping on orders over $50. Delivery usually takes 3–5 business days."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["I want to cancel my order", "Cancel my purchase", "Can I cancel the order I placed?", "I changed my mind"],
+      "responses": ["Please provide your order ID. If it's not shipped yet, we can cancel it immediately."]
+    },
+    {
+      "tag": "offers",
+      "patterns": ["Any Discount?", "Do you have sales right now?", "Show me your offers", "Promo codes?", "Coupons available?"],
+      "responses": ["Yes! We’re offering up to 30% off on select items. Use code SAVE30 at checkout!", "Check out our Deals section for current discounts."]
+    },
+    {
+      "tag": "account_help",
+      "patterns": ["I can't log in", "Forgot my password", "How do I create an account?", "Help with my account", "Login issues"],
+      "responses": ["You can reset your password using the 'Forgot Password' link. If you're still having trouble, let us know!"]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["I need help", "Contact support", "Talk to a representative", "Need assistance", "Customer support"],
+      "responses": ["Sure! You can contact our support team at support@example.com or call 1-800-123-4567."]
+    }
+  ]
+}
